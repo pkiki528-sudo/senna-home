@@ -41,7 +41,7 @@ export default function Ecosystem() {
   return (
     <section id="ecosystem" className="mx-auto w-[min(1120px,calc(100%-40px))] py-[92px] pt-6">
       <p className="mb-3 text-center font-mono text-xs uppercase tracking-[2px] text-cyan-300 text-glow-cyan">{'// ecosystem'}</p>
-      <h2 className="text-center text-[clamp(30px,4vw,46px)] font-extrabold tracking-[-1.5px]">Empat pintu, satu rumah.</h2>
+      <h2 className="text-center text-[clamp(30px,4vw,46px)] font-extrabold tracking-[-1.5px]">Satu rumah, banyak karya.</h2>
       <p className="mx-auto mt-3 max-w-[620px] text-center leading-[1.75] text-slate-400">Masuk lewat mana pun, kamu tetap berada di dalam ekosistem senna.dev.</p>
       <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4">
         {items.map((p, i) => (
