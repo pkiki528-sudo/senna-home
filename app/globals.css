@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #03030a;
+  --cyan: #00e8ff;
+  --violet: #9c55ff;
+  --pink: #ff3fc8;
+  --green: #42ff94;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background:
+    radial-gradient(800px 420px at 15% -5%, rgba(0,232,255,.12), transparent 60%),
+    radial-gradient(700px 380px at 90% 10%, rgba(156,85,255,.14), transparent 60%),
+    var(--bg);
+  color: #e8eef4;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  overflow-x: hidden;
+}
+
+.grid-bg {
+  background-image:
+    linear-gradient(rgba(0,232,255,.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,232,255,.06) 1px, transparent 1px);
+  background-size: 44px 44px;
+  mask-image: radial-gradient(ellipse 90% 70% at 50% 30%, black 30%, transparent 75%);
+}
+
+.grad-text {
+  background: linear-gradient(100deg, var(--cyan), var(--violet) 55%, var(--pink));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.text-glow-cyan { text-shadow: 0 0 14px rgba(0,232,255,.55); }
